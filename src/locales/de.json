@@ -1,0 +1,17 @@
+{
+  "hello": "Hallo, {name}!",
+  "language": "Spräche",
+  "company_name": "Betriebsname",
+  "dashboard": "Dashboard",
+  "overview": "Überblick",
+  "reports": "Reportagen",
+  "charts": "Diagramme",
+  "users": "Benutzern",
+  "accounts": "Accounts",
+  "loans": "Kredite",
+  "directDebits": "Lastschriften",
+  "buffer": "Puffer",
+  "funds": "Mittel",
+  "settings": "Einstellungen",
+  "logOut": "Ausloggen"
+}

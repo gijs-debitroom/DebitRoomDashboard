@@ -1,0 +1,16 @@
+{
+  "hello": "Hallo, {name}!",
+  "language": "taal",
+  "dashboard": "Dashboard",
+  "overview": "Overzicht",
+  "reports": "Rapportages",
+  "charts": "Grafieken",
+  "users": "Gebruikers",
+  "accounts": "Accounts",
+  "loans": "Leningen",
+  "directDebits": "Incasso's",
+  "buffer": "Buffer",
+  "funds": "Fonds",
+  "settings": "Instellingen",
+  "logOut": "Uitloggen"
+}

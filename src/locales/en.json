@@ -1,0 +1,16 @@
+{
+  "hello": "Hello, {name}!",
+  "language": "Language",
+  "dashboard": "Dashboard",
+  "overview": "Overview",
+  "reports": "Reports",
+  "charts": "Charts",
+  "users": "Users",
+  "accounts": "Accounts",
+  "loans": "Loans",
+  "directDebits": "Direct debits",
+  "buffer": "Buffer",
+  "funds": "Funds",
+  "settings": "Settings",
+  "logOut": "Log out"
+}
