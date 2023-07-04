@@ -5,6 +5,7 @@ import turnoverChart from "/components/charts/dashboardpage/turnoverChart";
 import acceptanceChart from "~/components/charts/dashboardpage/acceptanceChart";
 import treemapChart from "~/components/charts/dashboardpage/treemapChart";
 import areaChart from "~/components/charts/dashboardpage/areaChart";
+import ChartsDrawerMenu from "~/components/DrawerMenu/ChartsDrawerMenu.vue";
 
 export default {
   components: {
@@ -12,14 +13,14 @@ export default {
     turnoverChart,
     acceptanceChart,
     treemapChart,
-    areaChart
-  },
-  name: 'LandingPage',
+    areaChart,
+    ChartsDrawerMenu
+  }
 }
 </script>
 
 <template>
-<DrawerMenu class="h-screen"/>
+<ChartsDrawerMenu class="h-screen"/>
 <section class="py-8" style="margin-left: 297px">
   <div class="container px-4 mx-auto">
     <div class="flex flex-wrap -m-4">

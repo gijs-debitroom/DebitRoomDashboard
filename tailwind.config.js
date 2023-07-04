@@ -1,5 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
+  plugins: [
+    // ... some plugins,
+    plugin(function({ addVariant }) {
+      addVariant('active', ['&:active', '&.router-link-active'])
+    })
+  ],
   content: [
     "./src/components/**/*.{js,vue,ts}",
     "./src/layouts/**/*.vue",

@@ -113,7 +113,7 @@ export default {
 };
 </script>
 <template>
-  <DrawerMenu />
+  <ReportDrawerMenu />
   <section class="py-8 tableSection min-[320px]:overflow-auto lg:overflow-hidden" style="margin-left: 20%; width: 79%">
     <div id="app" class="container px-4">
       <div class="table pt-6 bg-white shadow rounded-xl">

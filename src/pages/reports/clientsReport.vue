@@ -1,5 +1,6 @@
 <script>
 import VGrid from "@revolist/vue3-datagrid";
+import ReportDrawerMenu from "~/components/DrawerMenu/ReportDrawerMenu.vue";
 
 export default {
   props: {
@@ -8,6 +9,7 @@ export default {
   name: "App",
   components: {
     VGrid,
+    ReportDrawerMenu
   },
   data() {
     return {
@@ -125,6 +127,7 @@ export default {
 };
 </script>
 <template>
+  <ReportDrawerMenu />
   <section class="py-8 tableSection min-[320px]:overflow-auto lg:overflow-hidden">
     <div id="app" class="container px-4">
     <!-- <section class="py-8">
@@ -319,9 +322,12 @@ export default {
   overflow-x: auto;
 } */
 
+
 #app {
-  margin: auto;
+  /* margin: auto; */
   margin-top: 25px;
+  padding-left: 340px;
+
 }
 
 .table {
