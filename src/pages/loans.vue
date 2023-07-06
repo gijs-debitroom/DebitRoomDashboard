@@ -1,16 +1,25 @@
-<script>function dropdownFunction(element) {
-  var dropdowns = document.getElementsByClassName("dropdown-content");
-  var i;
-  let list = element.parentElement.parentElement.getElementsByClassName("dropdown-content")[0];
-  list.classList.add("target");
-  for (i = 0; i < dropdowns.length; i++) {
-      if (!dropdowns[i].classList.contains("target")) {
-          dropdowns[i].classList.add("hidden");
-      }
-  }
-  list.classList.toggle("hidden");
-}</script>
+<script>
+// export default {
+//     data() {
+//         let fade = true;
+//         return fade;
+//     }
+// }
+// function dropdownFunction(element) {
+//   var dropdowns = document.getElementsByClassName("dropdown-content");
+//   var i;
+//   let list = element.parentElement.parentElement.getElementsByClassName("dropdown-content")[0];
+//   list.classList.add("target");
+//   for (i = 0; i < dropdowns.length; i++) {
+//       if (!dropdowns[i].classList.contains("target")) {
+//           dropdowns[i].classList.add("hidden");
+//       }
+//   }
+//   list.classList.toggle("hidden");
+// }
+</script>
 <template>
+<Transition appear>
   <div class="sm:px-6 w-full">
 <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
     <div class="px-4 md:px-10 py-4 md:py-7">
@@ -879,10 +888,21 @@
         </div>
     </div>
 </div>
+</Transition>
 </template>
 <style>
 .checkbox:checked + .check-icon {
   display: flex;
+}
+
+.enter-active,
+.leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.enter-from,
+.leave-to {
+  opacity: 0;
 }
 </style>
 

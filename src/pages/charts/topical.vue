@@ -21,6 +21,7 @@ export default {
 
 <template>
 <ChartsDrawerMenu class="h-screen"/>
+<Transition appear>
 <section class="py-8" style="margin-left: 297px">
   <div class="container px-4 mx-auto">
     <div class="flex flex-wrap -m-4">
@@ -38,6 +39,7 @@ export default {
     </div>
   </div>
 </section>
+</Transition>
 <!-- <section class="py-8 bg-pageBackgroundColor dark:bg-dark-pageBackgroundColor">
   <div class="container px-4 mx-auto">
     <div class="flex flex-wrap -m-4">
